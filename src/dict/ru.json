@@ -1,0 +1,45 @@
+{
+	"MODULE_INFO_NAME": "📕 Справочник",
+	"MODULE_EVENTS_NAME": "🎟 Мероприятия",
+	"MODULE_RECRUITMENT_NAME": "🫂 Набор в комитет",
+	"MODULE_ADMIN_NAME": "🦸 Администрирование",
+
+	"MODULE_EVENTS_GET_ALL": "📊 Список",
+	"MODULE_EVENTS_GEL_ALL_FROM": "Вернуться к списку",
+	"MODULE_EVENTS_ADD": "📝 Добавить",
+	"MODULE_EVENTS_REMOVE": "❌ Удалить",
+	"MODULE_EVENTS_REMOVE_CONFIRM": "❌ ДА, УДАЛИТЬ",
+	"MODULE_EVENTS_REMOVE_CANCEL": "🔙 НЕТ, ОСТАВИТЬ",
+	"MODULE_EVENTS_GET_SUBMITTED": "📊 Записавшиеся",
+	"MODULE_EVENTS_CLOSE_GET_SUBMITTED": "Закрыть список",
+	"MODULE_EVENTS_SUBMIT": "🤝 Записаться",
+	"MODULE_EVENTS_NEXT_PAGE": "➡️",
+	"MODULE_EVENTS_PREV_PAGE": "⬅️",
+
+	"MODULE_EVENTS_ADD_NAME": "Начнем!\n\nДля начала, введите название мероприятия.",
+	"MODULE_EVENTS_ADD_DESCRIPTION": "Отлично, теперь добавьте описание для него.",
+	"MODULE_EVENTS_ADD_LOCATION": "Обязательно укажите место мероприятия.",
+	"MODULE_EVENTS_ADD_DATE": "И дату со временем, конечно же!",
+	"MODULE_EVENTS_ADD_SUCCESS": "Отлично! Мероприятие успешно добавлено.",
+
+	"MODULE_EVENTS_SUBMIT_EMAIL": "Адрес электронной почты",
+	"MODULE_EVENTS_SUBMIT_FIO": "ФИО",
+	"MODULE_EVENTS_SUBMIT_FACULTY": "Факультет",
+	"MODULE_EVENTS_SUBMIT_AC_GROUP": "Академическая группа",
+	"MODULE_EVENTS_SUBMIT_PHONE": "Номер телефона",
+	"MODULE_EVENTS_SUBMIT_VKCOM": "Ссылка на ваш профиль VK",
+	"MODULE_EVENTS_SUBMIT_DESCRIBE": "Расскажите о себе",
+	"MODULE_EVENTS_SUBMIT_Q1": "Откуда узнал(а) про Комитет по научной работе?",
+	"MODULE_EVENTS_SUBMIT_Q2": "Чем хотел(а) бы заниматься в Комитете?",
+	"MODULE_EVENTS_SUBMIT_Q3": "В какой(ие) отдел(ы) хотел(а) бы вступить?",
+	"MODULE_EVENTS_SUBMIT_Q4": "Что умеете? Какими полезными навыками обладаешь?",
+	"MODULE_EVENTS_SUBMIT_Q5": "Что ожидаешь от работы в Комитете?",
+
+	"MODULE_RECRUITMENT_SUBMIT": "Отправить заявку",
+	"MODULE_RECRUITMENT_CANCEL": "Отменить",
+
+	"NO_LOCATION": "Место не указано",
+	"NO_DATE": "Когда-то",
+	"NO_DESCRIPTION": "Нет описания",
+	"ERROR": "Ошибка"
+}

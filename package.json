@@ -1,0 +1,19 @@
+{
+  "type": "module",
+  "dependencies": {
+    "@prisma/client": "^5.11.0",
+    "glob": "^10.3.10",
+    "prisma": "^5.11.0",
+    "sqlite3": "^5.1.7",
+    "telegraf": "^4.16.3"
+  },
+  "name": "tg1",
+  "version": "1.0.0",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
