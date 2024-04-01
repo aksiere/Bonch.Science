@@ -1,8 +1,6 @@
 import { db } from '../prisma/index.js'
-import { glob } from 'glob'
 
 import{ Telegraf, Markup, Scenes, session } from 'telegraf'
-import { message } from 'telegraf/filters'
 
 import { fetchActions } from './utils.js'
 import { events_add_scene } from './scenes/events_add.js'

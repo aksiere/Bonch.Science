@@ -1,5 +1,3 @@
-import { db } from '../../prisma/index.js'
-
 export default {
 	name: 'events_add',
 	run: async ({ ctx, superadmins, d }) => {

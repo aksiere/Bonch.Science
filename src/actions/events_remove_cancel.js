@@ -1,5 +1,4 @@
 import { Markup } from 'telegraf'
-import { db } from '../../prisma/index.js'
 
 export default {
 	name: /events_remove_cancel (.*) (.*)/,

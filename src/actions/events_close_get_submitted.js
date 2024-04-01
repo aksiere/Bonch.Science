@@ -1,6 +1,3 @@
-import { Markup } from 'telegraf'
-import { db } from '../../prisma/index.js'
-
 export default {
 	name: /events_close_get_submitted/,
 	run: async ({ ctx, superadmins, d }) => {
