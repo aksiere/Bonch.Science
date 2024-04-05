@@ -1,5 +1,5 @@
 import { db } from '../../prisma/index.js'
-import { Scenes } from 'telegraf'
+import { Scenes, Markup } from 'telegraf'
 
 import ru from '../dict/ru.json' with { type: 'json' }
 let d = ru
@@ -31,13 +31,20 @@ export const recruitment_add_scene = new Scenes.WizardScene('recruitment_add_sce
 	(ctx) => {
 		if (ctx.message.text.length < 1) return ctx.reply(d.ERROR)
 		ctx.wizard.state.data.ac_group = ctx.message.text
-		ctx.reply(d.MODULE_EVENTS_SUBMIT_PHONE)
+		// ctx.reply(d.MODULE_EVENTS_SUBMIT_PHONE)
+		ctx.reply(d.MODULE_EVENTS_SUBMIT_PHONE, {
+			...Markup.keyboard([
+				Markup.button.contactRequest('Поделиться номером телефона'),
+			]).oneTime().resize(),
+		})
 		return ctx.wizard.next()
 	},
 	(ctx) => {
-		if (ctx.message.text.length < 1) return ctx.reply(d.ERROR)
-		ctx.wizard.state.data.phone = ctx.message.text
-		ctx.reply(d.MODULE_EVENTS_SUBMIT_VKCOM)
+		if (!ctx.message.contact) return ctx.reply(d.ERROR)
+		ctx.wizard.state.data.phone = ctx.message.contact.phone_number
+		ctx.reply(d.MODULE_EVENTS_SUBMIT_VKCOM, {
+			...Markup.removeKeyboard(true)
+		})
 		return ctx.wizard.next()
 	},
 	(ctx) => {
